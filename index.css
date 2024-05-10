@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  margin: 5% auto 5% auto;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+}
+
+.padding {
+  padding: 12px 5px;
+}
+.bold {
+  font-weight: 600;
+}
+.learning-btn {
+  border: none;
+  color: black;
+  padding: 7px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 14px;
+  cursor: pointer;
+}
+svg {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+.learning-btn:hover {
+  background-color: hsl(0, 0%, 50%);
+  /* color: white; */
+}
+/* .learning-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+} */
+.margin-left {
+  margin-left: 14px;
+}
+p {
+  font-size: 16px;
+}
+.text-center {
+  text-align: center;
+}
+.raduis {
+  border-radius: 20px;
+}
+.rounded {
+  border-radius: 10px !important;
+  /* border: 1px solid black; */
+}
+.text-bold {
+  font-weight: 800;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.auditor {
+  display: flex;
+  gap: 10px;
+}
+.text-section {
+  padding: 5px 10px;
+}
+.name {
+  margin: 20px 0;
+}
+.black {
+  color: hsl(0, 0%, 7%);
+}
+.grey {
+  color: hsl(0, 0%, 50%);
+}
+.white {
+  color: hsl(0, 0%, 100%);
+}
+.yellow {
+  color: hsl(47, 88%, 63%);
+}
